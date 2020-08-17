@@ -1,0 +1,24 @@
+To get the data please download from: https://drive.google.com/drive/folders/1RAOBRFk-fBpUYf7DfKu1txmb1nvHPBRn?usp=sharing. This will supply all of the data of the filterd elephant datasets for quick testing. To create a filtered dataset of your own get the data from https://drive.google.com/file/d/1zUvugHsrjFAzftUJ7H2G9v3d_XwCcUda/view?usp=sharing .This file should be unzipped and placed in this directory.
+
+The directory layout should be similar to this:
+|---- Final Project
+      |---- data
+           |---- my_data
+           |---- by-id (optional)
+           |---- attributes.json
+           |---- image_data.json
+           |---- scene_graphs.json
+           |---- synsets.json
+      |---- ECMM428_Individual_Research_Project.ipynb
+      |---- Machine Learning Testing 1.ipynb
+      |---- Machine Learning Testing 2.ipynb
+      |---- Machine Learning Testing 3.ipynb
+      |---- README
+      
+      
+There are little need to install additional libraries when using the Jupyter notebook(there are lready included in the notebook). However, these are the requirement for this project are:
+* -q git+https://github.com/ranjaykrishna/visual_genome_python_driver.git
+* ujson
+* -q git+https://github.com/fabriziocosta/EDeN.git
+* -q opencv-python
+* six
